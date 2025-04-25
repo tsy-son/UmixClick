@@ -27,7 +27,7 @@ def main():
 def parse_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('model_path', type=str, default='models/iter_mask/plainvit_base448_sbd_itermask.py',
+    parser.add_argument('model_path', type=str, default='',
                         help='Path to the model script.')
 
     parser.add_argument('--exp-name', type=str, default='',

@@ -724,7 +724,7 @@ class MitModel(ISModel):
 
     # #
     def _init_weights(self):
-        pretrained_dict = torch.load(r'D:\code\pretrain\mit_b4.pth')
+        pretrained_dict = torch.load(r'E:\code\UmixClick-1.0\weights\pretrained\mit_b4.pth')
         # pretrained_dict = torch.load(r'E:\download\ChromeDownload\upernet_swin_base_patch4_window7_512x512.pth')
         # pretrained_dict = torch.load(r'D:\Code\Data\DeepGlobe Road dataset\results\umit\model000000063.model')
         model_dict1 = self.backbone.state_dict()

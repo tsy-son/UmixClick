@@ -90,22 +90,19 @@ def train(model, cfg, model_cfg):
                                        merge_objects_prob=0.15,
                                        max_num_merged_objects=2)
 
-    DATA_PATH = 'E:\code\interactive_sam_segmentation\datasets\profile'
     trainset = F3Dataset(
-        # cfg.SBD_PATH,
-        DATA_PATH,
+        cfg.F3_PATH,
         split='train',
         augmentator=train_augmentator,
         min_object_area=80,
         keep_background_prob=0.01,
         points_sampler=points_sampler,
-        samples_scores_path='./assets/sbd_samples_weights.pkl',
+        samples_scores_path='./assets/F3_samples_weights.pkl',
         samples_scores_gamma=1.25
     )
 
     valset = F3Dataset(
-        # cfg.SBD_PATH,
-        DATA_PATH,
+        cfg.F3_PATH,
         split='val',
         augmentator=val_augmentator,
         min_object_area=80,

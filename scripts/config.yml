@@ -1,0 +1,5 @@
+INTERACTIVE_MODELS_PATH: "../weights"
+EXPS_PATH: "./experiments"
+
+F3_PATH: "E:\\code\\interactive_sam_segmentation\\datasets\\profile"
+
