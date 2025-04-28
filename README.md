@@ -37,9 +37,3 @@ python train.py models/iter_mask/umixvit_base448_F3_itermask.py
 F3 datasets: [F3](https://pan.baidu.com/s/16lJZPj_sNCUKYYv5eLs-BA?pwd=b5yh)
 
 Pretrained weight：[weight](https://pan.baidu.com/s/1rntFPCclSi5OMst_1hFBtQ?pwd=ucv1), This weight needs to be added at the end of [umit.py]([UmixClick/isegm/model/modeling/umit.py at main · tsy-son/UmixClick](https://github.com/tsy-son/UmixClick/blob/main/isegm/model/modeling/umit.py)
-
-## License
-The code is released under the MIT License. It is a short, permissive software license. Basically, you can do whatever you want as long as you include the original copyright and license notice in any copy of the software/source. 
-
-## Acknowledgement
-Our project is developed based on [RITM](https://github.com/saic-vul/ritm_interactive_segmentation). Thanks for the nice demo GUI 
